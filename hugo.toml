@@ -1,6 +1,6 @@
 baseURL = 'https://dsattari.github.io/'
 languageCode = 'en-us'
-title = 'Welcome'
+title = 'Darius | Welcome'
 
 # config.toml
 [[module.imports]]
@@ -9,11 +9,12 @@ path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 [Params]
 [Params.Sidebar]
 	compact = true
-	subtitle = "Darius Sattari"
+	# subtitle = "Darius Sattari"
 [[widgets.homepage]]
 	type = "search"
-
-
+[Params.Footer]
+	customText = ""
+	
 [menu]
 [[menu.main]]
     name = "Home"
