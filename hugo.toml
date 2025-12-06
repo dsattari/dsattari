@@ -32,3 +32,21 @@ path = "github.com/CaiJimmy/hugo-theme-stack/v3"
     [menu.main.params]
         icon = "mail"
         newTab = false
+
+[[menu.main]]
+    name = "Jupyter"
+    url = "/projet"
+    weight = 3
+    identifier = "Jupyter"
+    [menu.main.params]
+        icon = "brand-python"
+        newTab = false
+
+[[menu.main]]
+    name = "BPMN"
+    url = "/bpmn"
+    weight = 4
+    identifier = "BPMN"
+    [menu.main.params]
+        icon = "subtask"
+        newTab = false
